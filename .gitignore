@@ -1,0 +1,7 @@
+node_modules
+client/dist/scripts
+client/dist/images
+client/dist/styles
+npm-debug.log
+*.log
+.vscode
