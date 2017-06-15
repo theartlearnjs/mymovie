@@ -1,8 +1,9 @@
 /*eslint-disable no-unused-vars */
 import React from 'react'
 import { render } from 'react-dom'
+import App from './app'
 
 render(
-    <h1>hello, world</h1>,
+    <App />,
     document.getElementById('app')
 )
