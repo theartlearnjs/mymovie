@@ -1,4 +1,5 @@
 /*eslint-disable no-unused-vars */
+import 'normalize.css'
 import React from 'react'
 import { render } from 'react-dom'
 import App from './app'
