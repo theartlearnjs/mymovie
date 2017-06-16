@@ -24,7 +24,7 @@ var config = {
             use: ExtractTextPlugin.extract({use: 'style-loader', use: 'css-loader!postcss-loader!less-loader'})
         },
         {
-            test: /\.(png|jpg|jpng|eot|ttf)$/, // 打包图片和字体文件
+            test: /\.(png|jpg|jpng|eot|ttf|woff|svg)$/, // 打包图片和字体文件
             use: 'url-loader?limit=8192&name=images/[name].[ext]'
         }] 
     },
