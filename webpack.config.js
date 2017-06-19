@@ -1,9 +1,11 @@
 var webpack = require('webpack'),
     ExtractTextPlugin = require('extract-text-webpack-plugin'),
-    path = require('path')
+    path = require('path'),
+    hotMiddlewareScript = 'webpack-hot-middleware/client?reload=true',
+    publicPath = 'http://localhost:4000/'
 var config = {
     entry: { // 打包入口
-        index: './client/src/main.js',
+        index: ['./client/src/main.js',hotMiddlewareScript],
         vendor: [  // 将react和react-dom这些单独打包出来，减小打包文件体积
             'react',
             'react-dom'
@@ -11,7 +13,8 @@ var config = {
     },
     output: { // 打包目标路径
         path: path.join(__dirname,'/client/dist'),
-        filename: 'scripts/[name].js'
+        filename: 'scripts/[name].js',
+        publicPath: publicPath
     },
     module:{
         rules: [{
@@ -43,7 +46,9 @@ var config = {
             compress: {
                 warnings: false
             }
-        })
+        }),
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.NoEmitOnErrorsPlugin()
     ]
 }
 

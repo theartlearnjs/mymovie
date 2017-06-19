@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./server/app.js --exec babel-node"
+    "start": "nodemon ./server/app.js -i client --exec babel-node"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "mongoose": "^4.10.6",
     "morgan": "~1.8.1",
     "node-less": "^1.0.0",
+    "normalize.css": "^7.0.0",
     "postcss-loader": "^2.0.5",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
@@ -53,7 +54,10 @@
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^7.0.1",
     "extract-text-webpack-plugin": "^2.1.2",
+    "opn": "^5.1.0",
     "path": "^0.12.7",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-hot-middleware": "^2.18.0"
   }
 }
