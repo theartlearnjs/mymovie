@@ -8,8 +8,7 @@ import webpack from 'webpack'
 import webpackDevMiddleware from 'webpack-dev-middleware'
 import webpackHotMiddleware from 'webpack-hot-middleware'
 import webpackDevConfig from '../webpack.config.js'
-import opn from 'opn'
-// import mongoose from 'mongoose'
+// import opn from 'opn'
 
 //webpack hmr
 let compiler = webpack(webpackDevConfig)
@@ -24,28 +23,6 @@ app.use(webpackDevMiddleware(compiler,{
 }))
 app.use(webpackHotMiddleware(compiler))
 
-//connect database
-// mongoose.connect('mongodb://localhost:27017/movie')
-// var db = mongoose.connection
-//     db.on('error', console.error.bind(console, 'connection error:'))
-//     db.once('open', function (callback) {
-//     console.log('MongoDB Opened!')
-//     });
-
-// var Cat = mongoose.model('Cat', { name: String });
-
-// var kitty = new Cat({ name: 'Zildjian' });
-// kitty.save(function (err) {
-//   if (err) {
-//     console.log(err);
-//   } else {
-//     console.log('meow');
-//   }
-// });
-
-let appData = require('./data.json')
-let movie = appData.movie
-console.log(movie)
 
 // view setup
 app.set('views', path.join(__dirname, '../client/dist'))
@@ -57,11 +34,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cookieParser()) //解析cookie
 app.use(express.static(path.join(__dirname, '../client/dist')))
 app.get('/', (req, res) => {
-    // res.render('index')
-    res.json({
-        errno: 0,
-        data: movie
-    });
+    res.render('index')
 })
 
 app.listen(port, () => {

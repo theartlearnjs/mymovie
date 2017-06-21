@@ -1,26 +1,29 @@
 import mongoose from 'mongoose'
 
-let MovieSchema = new mongoose.Schema({
+var MovieSchema = new mongoose.Schema({
+    // _id: mongoose.Schema.Types.ObjectId,
     name: String,
     englishName:String,
     imgAddress : String,
-    year : String,
-    score: String,
+    year : Number,
+    score: Number,
     scoreNum: String,
-    duration: Date,
+    duration: Number,
     country: String,
     director: String,
     strring: String
-})
+},{collection:'movies'})
 
 let Movie = mongoose.model('Movie',MovieSchema)
-let MovieDAO = function(){}
 
-MovieDAO.prototype.save = function(obj,callback){
-    let newMovie = new Movie(obj)
-    newMovie.save(function(err){
-        callback(err)
-    })
-}
+module.exports = Movie
+// let MovieDAO = function(){}
 
-module.exports = new MovieDAO();
+// MovieDAO.prototype.save = function(obj){
+//     let newMovie = new Movie(obj)
+//     newMovie.save(function(){
+//         console.log('err')
+//     })
+// }
+
+// module.exports = new MovieDAO()

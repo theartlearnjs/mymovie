@@ -1,101 +1,98 @@
-{
-	"movie":
-	[
-		{
-			"name": "异形：契约",
-			"englishName":"Alien: Covenant",
-			"imgAddress": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2459944375.webp",
-			"year":"2017",
-			"score":"7.4",
-			"scoreNum":"48264",
-			"duration":"116",
-			"country":"美国",
-			"director":"雷德利·斯科特",
-			"strring":"迈克尔·法斯宾德/凯瑟琳·沃特斯顿/比利·克鲁德普"
-		},
-		{
-			"name": "冈仁波齐",
-			"englishName":"",
-			"imgAddress": "https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2462387248.webp",
-			"year":"2015",
-			"score":"7.4",
-			"scoreNum":"875",
-			"duration":"117",
-			"country":"中国大陆",
-			"director":"张扬",
-			"strring":"尼玛扎堆/杨培/索朗卓嘎"
-		},
-		{
-			"name": "新木乃伊",
-			"englishName":"The Mummy",
-			"imgAddress": "https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2459198108.webp",
-			"year":"2017",
-			"score":"4.8",
-			"scoreNum":"40083",
-			"duration":"116",
-			"country":"美国",
-			"director":"艾里克斯·库兹曼",
-			"strring":"汤姆·克鲁斯/罗素·克劳/安娜贝拉·沃丽丝"
-		},
-		{
-			"name": "神奇女侠",
-			"englishName":"Wonder Woman",
-			"imgAddress": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2460006593.webp",
-			"year":"2017",
-			"score":"7.3",
-			"scoreNum":"131290",
-			"duration":"141",
-			"country":"美国",
-			"director":"派蒂·杰金斯",
-			"strring":"盖尔·加朵/克里斯·派恩/康妮·尼尔森"
-		},
-		{
-			"name": "加勒比海盗5: 死无对证",
-			"englishName":"Pirates of the Caribbean: Dead Men Tell No Tales",
-			"imgAddress": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2459723975.webp",
-			"year":"2017",
-			"score":"7.4",
-			"scoreNum":"125461",
-			"duration":"129",
-			"country":"美国",
-			"director":"艾斯彭·山德伯格/乔阿吉姆·罗恩尼",
-			"strring":"约翰尼·德普/哈维尔·巴登/杰弗里·拉什"
-		},
-		{
-			"name": "摔跤把！爸爸",
-			"englishName":"Dangal",
-			"imgAddress": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2457983084.webp",
-			"year":"2016",
-			"score":"9.2",
-			"scoreNum":"304330",
-			"duration":"161",
-			"country":"印度",
-			"director":"涅提·蒂瓦里",
-			"strring":"阿米尔·汗/法缇玛·萨那·纱卡/桑亚·玛荷塔 "
-		},
-		{
-			"name": "重返·狼群",
-			"englishName":"",
-			"imgAddress": "https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2461834877.webp",
-			"year":"2017",
-			"score":"7.9",
-			"scoreNum":"2095",
-			"duration":"98",
-			"country":"中国大陆",
-			"director":"亦风",
-			"strring":"李微漪"
-		},
-		{
-			"name": "中国推销员",
-			"englishName":"",
-			"imgAddress": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2461964183.webp",
-			"year":"2017",
-			"score":"4.4",
-			"scoreNum":"995",
-			"duration":"110",
-			"country":"中国大陆",
-			"director":"檀冰",
-			"strring":"李东学/迈克·泰森/史蒂文·席格"
-		}
-	]
-}
+[
+  {
+    "name": "异形：契约",
+    "englishName": "Alien: Covenant",
+    "imgAddress": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2459944375.webp",
+    "year": "2017",
+    "score": "7.4",
+    "scoreNum": "48264",
+    "duration": "116",
+    "country": "美国",
+    "director": "雷德利·斯科特",
+    "strring": "迈克尔·法斯宾德/凯瑟琳·沃特斯顿/比利·克鲁德普"
+  },
+  {
+    "name": "冈仁波齐",
+    "englishName": "",
+    "imgAddress": "https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2462387248.webp",
+    "year": "2015",
+    "score": "7.4",
+    "scoreNum": "875",
+    "duration": "117",
+    "country": "中国大陆",
+    "director": "张扬",
+    "strring": "尼玛扎堆/杨培/索朗卓嘎"
+  },
+  {
+    "name": "新木乃伊",
+    "englishName": "The Mummy",
+    "imgAddress": "https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2459198108.webp",
+    "year": "2017",
+    "score": "4.8",
+    "scoreNum": "40083",
+    "duration": "116",
+    "country": "美国",
+    "director": "艾里克斯·库兹曼",
+    "strring": "汤姆·克鲁斯/罗素·克劳/安娜贝拉·沃丽丝"
+  },
+  {
+    "name": "神奇女侠",
+    "englishName": "Wonder Woman",
+    "imgAddress": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2460006593.webp",
+    "year": "2017",
+    "score": "7.3",
+    "scoreNum": "131290",
+    "duration": "141",
+    "country": "美国",
+    "director": "派蒂·杰金斯",
+    "strring": "盖尔·加朵/克里斯·派恩/康妮·尼尔森"
+  },
+  {
+    "name": "加勒比海盗5: 死无对证",
+    "englishName": "Pirates of the Caribbean: Dead Men Tell No Tales",
+    "imgAddress": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2459723975.webp",
+    "year": "2017",
+    "score": "7.4",
+    "scoreNum": "125461",
+    "duration": "129",
+    "country": "美国",
+    "director": "艾斯彭·山德伯格/乔阿吉姆·罗恩尼",
+    "strring": "约翰尼·德普/哈维尔·巴登/杰弗里·拉什"
+  },
+  {
+    "name": "摔跤把！爸爸",
+    "englishName": "Dangal",
+    "imgAddress": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2457983084.webp",
+    "year": "2016",
+    "score": "9.2",
+    "scoreNum": "304330",
+    "duration": "161",
+    "country": "印度",
+    "director": "涅提·蒂瓦里",
+    "strring": "阿米尔·汗/法缇玛·萨那·纱卡/桑亚·玛荷塔 "
+  },
+  {
+    "name": "重返·狼群",
+    "englishName": "",
+    "imgAddress": "https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2461834877.webp",
+    "year": "2017",
+    "score": "7.9",
+    "scoreNum": "2095",
+    "duration": "98",
+    "country": "中国大陆",
+    "director": "亦风",
+    "strring": "李微漪"
+  },
+  {
+    "name": "中国推销员",
+    "englishName": "",
+    "imgAddress": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2461964183.webp",
+    "year": "2017",
+    "score": "4.4",
+    "scoreNum": "995",
+    "duration": "110",
+    "country": "中国大陆",
+    "director": "檀冰",
+    "strring": "李东学/迈克·泰森/史蒂文·席格"
+  }
+]
